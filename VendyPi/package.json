@@ -1,0 +1,9 @@
+{
+  "name": "vendy-pi",
+  "version": "0.0.0",
+  "description": "VendyPi",
+  "main": "server.js",
+  "author": {
+    "name": "jboundy"
+  }
+}

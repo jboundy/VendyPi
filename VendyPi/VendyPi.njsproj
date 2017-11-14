@@ -31,6 +31,17 @@
     <Compile Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="src\data\inventory.json">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\views\layout.html">
+      <SubType>Code</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\data\" />
+    <Folder Include="src\views\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />

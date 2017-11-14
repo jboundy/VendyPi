@@ -1,10 +1,18 @@
 'use strict';
-var http = require('http');
-var fs = require('fs');
+var express = require('express');
+var app = express();
+var path = require('path');
 var port = process.env.PORT || 1337;
 
-http.createServer(function (req, res) {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-}).listen(port);
+app.get('/', function (req, res) {
+    res.sendFile(path.join(__dirname,'src/views/index.html'));
+    });
 
+app.listen(port);
 
+//var stripeVM = {
+//    description: ko.observerable("description"),
+//    amount: ko.obserable("000"),
+//}
+
+//ko.applyBindings(stripeVM);

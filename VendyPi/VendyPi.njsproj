@@ -34,7 +34,10 @@
     <Content Include="src\data\inventory.json">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="src\views\layout.html">
+    <Content Include="src\views\index.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\views\stripe-form.html">
       <SubType>Code</SubType>
     </Content>
   </ItemGroup>
